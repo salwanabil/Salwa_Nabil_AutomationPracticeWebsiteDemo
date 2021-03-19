@@ -6,11 +6,7 @@ Version 1 for java seleniumwebdriver website test automation for http://automati
 * Project Scope :
 1 - Create new account
 2 - Login with that newly created account.
-3 - Buy a “Summer Dress” from Dresses category with the following :
-● L Size
-● Orange color
-● Add item to cart , proceed to checkout then place the order
-● Validate order was placed from order history page
+3 - click on dresses
 
 You can rerun the project using : testng.xml
 
