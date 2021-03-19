@@ -18,3 +18,5 @@ Used plugins and dlls
 2-TestNG
 3-Maven
 
+Note : please update the mail on second run at resources/liveAutomationPractice.properties
+
