@@ -18,5 +18,5 @@ Used plugins and dlls
 2-TestNG
 3-Maven
 
-Note : please update the mail on second run at resources/liveAutomationPractice.properties
+Note : please update the mail on second run at resources/liveAutomationPractice.properties , as I need to do enhancement to get generated faker mail then save it to file to be used in login
 
