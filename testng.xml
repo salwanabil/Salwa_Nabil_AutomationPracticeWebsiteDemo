@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest Assured apis Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="Salwa_Nabil_Rest Assured Pets store apis Test">
+        <classes><class name="restassured.DeleteSampleRequest">
+        <methods>
+            <include name="deleteRequest"/>
+        </methods></class>
+        <class name="restassured.GetSampleRequest">
+            <methods><include name="getRequestWithQueryParam"/></methods>
+        </class>
+        <class name="restassured.PostSampleRequest">
+            <methods><include name="postRequest"/></methods>
+        </class>
+        <class name="restassured.PutSampleRequest">
+            <methods><include name="putRequest"/></methods>
+        </class>
+    </classes>
+    </test>
+
+
+    <test verbose="2"  name="Website Test">
+        <parameter name="browser" value="Chrome"></parameter>
+        <classes>
+            <class name="UserLoginTest"></class>
+            <class name="ShoppingTest"></class>
+        </classes>
+    </test>
+
+</suite>
